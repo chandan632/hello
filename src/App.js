@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>Hello Everyone!</h1>
       <p>Welcome to the blank website!</p>
+      <span>{process.env.REACT_APP_MYKEY}</span>
     </div>
   );
 }
